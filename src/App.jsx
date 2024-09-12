@@ -148,7 +148,7 @@ function App() {
             {readme && (
               <div className="h-full flex flex-col">
                 <div className="flex justify-between items-center mb-4">
-                  <h2 className="text-2xl font-bold text-white">Generated README</h2>
+                  <h2 className="lg:text-2xl text-xl font-bold text-white">Generated README</h2>
                   <motion.button
                     onClick={handleCopy}
                     className="text-blue-400 hover:text-blue-300 transition duration-200 flex items-center space-x-2"
